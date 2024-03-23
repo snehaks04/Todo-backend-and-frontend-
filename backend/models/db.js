@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-mongoose.connect("mongodb+srv://admin:Mongomongo203@cluster0.0rbsm1g.mongodb.net/fulltodo")
+mongoose.connect("url")
 
 const  taskSchema = new mongoose.Schema({
     title: { 
